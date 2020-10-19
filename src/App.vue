@@ -1,15 +1,24 @@
+<!--
+ * @Date: 2020-10-19 14:21:57
+ * @LastEditTime: 2020-10-19 17:07:47
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div>
+    <div>
+      我是头部|
+      <router-link to="/">haha</router-link> |
+      <router-link to="/xxx">haha2</router-link>
+    </div>
+
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HaHa from "./components/HaHa.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
