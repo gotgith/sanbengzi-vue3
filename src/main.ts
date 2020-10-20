@@ -1,22 +1,13 @@
-/*
- * @Date: 2020-10-19 14:21:57
- * @LastEditTime: 2020-10-19 17:46:21
- */
-import { createApp } from 'vue';
+// import './lib/gulu.scss';
+import './index.scss';
+import {createApp} from 'vue';
 import App from './App.vue';
-import './index.css';
-import { createWebHashHistory, createRouter } from 'vue-router';
-import Home from './views/Home.vue'
-import Doc from './views/Doc.vue'
+import {router} from './router';
+// import './lib/svg.js';
+// import 'github-markdown-css'
+// import Markdown from './components/Markdown.vue';
 
-const history = createWebHashHistory();
-const router = createRouter({
-  history,
-  routes: [
-    { path: '/', component: Home },
-    { path: '/Doc', component: Doc }
-  ]
-});
 const app = createApp(App);
 app.use(router);
 app.mount('#app');
+// app.component("Markdown", Markdown)

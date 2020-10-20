@@ -1,16 +1,21 @@
-<!--
- * @Date: 2020-10-19 14:21:57
- * @LastEditTime: 2020-10-19 17:46:10
--->
 <template>
-  <div>
-    <router-view />
-  </div>
+  <router-view/>
 </template>
 
-<script>
+<script lang="ts">
+import {provide, ref} from 'vue';
+import {router} from './router';
+
 export default {
-  name: "App",
-  components: {},
+  name: 'App',
+  setup() {
+    const width = document.documentElement.clientWidth;
+    console.log(width);
+    const menuVisible = ref(width <= 500 ? false : true);
+    provide('menuVisible', menuVisible); //set
+    router.afterEach(() => {
+      if (width <= 500) { menuVisible.value = false;}
+    });
+  },
 };
 </script>

@@ -1,7 +1,3 @@
-<!--
- * @Date: 2020-10-19 17:31:59
- * @LastEditTime: 2020-10-19 17:32:47
--->
 <template>
   <div class="topnav">
     <router-link to="/" class="logo">
@@ -14,29 +10,22 @@
         <router-link to="/doc">文档</router-link>
       </li>
     </ul>
-    <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
+    <svg v-if="menuVisible" class="toggleAside" @click="toggleMenu">
       <use xlink:href="#icon-menu"></use>
     </svg>
   </div>
 </template>
 
 <script lang="ts">
-import { inject, Ref } from "vue";
+import {inject, Ref} from 'vue';
+
 export default {
-  props: {
-    toggleMenuButtonVisible: {
-      type: Boolean,
-      default: false,
-    },
-  },
   setup() {
-    const menuVisible = inject<Ref<boolean>>("menuVisible"); // get
+    const menuVisible = inject<Ref<boolean>>('menuVisible'); //get
     const toggleMenu = () => {
       menuVisible.value = !menuVisible.value;
     };
-    return {
-      toggleMenu,
-    };
+    return {toggleMenu};
   },
 };
 </script>
@@ -54,22 +43,27 @@ $color: #007974;
   z-index: 20;
   justify-content: center;
   align-items: center;
+
   > .logo {
     max-width: 6em;
     margin-right: auto;
+
     > svg {
       width: 32px;
       height: 32px;
     }
   }
+
   > .menu {
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
+
     > li {
       margin: 0 1em;
     }
   }
+
   > .toggleAside {
     width: 32px;
     height: 32px;
@@ -80,6 +74,7 @@ $color: #007974;
     display: none;
     background: fade-out(black, 0.9);
   }
+
   @media (max-width: 500px) {
     > .menu {
       display: none;
