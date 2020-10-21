@@ -8,8 +8,8 @@
 import Button from '../lib/Button.vue';
 
 export default {
-  components: {
-    Button
+  components: {Button},
+  setup() {
   }
 };
 </script>>
