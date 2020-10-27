@@ -1,22 +1,36 @@
 <!--
  * @Date: 2020-10-21 13:56:45
- * @LastEditTime: 2020-10-27 15:15:57
+ * @LastEditTime: 2020-10-27 16:00:18
 -->
 <template>
-  <button class="gulu-button" :class="`gulu-theme-${theme}`">
+  <button class="gulu-button" :class="classes">
     <slot />
   </button>
 </template>
 
 <script lang="ts">
+import { computed } from "vue";
 export default {
   props: {
     theme: {
       type: String,
       default: "button",
     },
+    size: {
+      type: String,
+      default: "normal",
+    },
   },
-  setup() {},
+  setup(props) {
+    const { theme, size } = props;
+    const classes = computed(() => {
+      return {
+        [`gulu-theme-${theme}`]: theme,
+        [`gulu-size-${size}`]: size,
+      };
+    });
+    return { classes };
+  },
 };
 </script>
 
