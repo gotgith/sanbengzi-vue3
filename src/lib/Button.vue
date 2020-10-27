@@ -1,28 +1,37 @@
 <!--
  * @Date: 2020-10-21 13:56:45
- * @LastEditTime: 2020-10-27 16:17:07
+ * @LastEditTime: 2020-10-27 17:42:09
 -->
 <template>
-  <button class="gulu-button" :class="classes">
+  <button :disabled="disabled" class="gulu-button" :class="classes">
+    <span v-if="loading" class="gulu-loadingIndicator"> </span>
     <slot />
   </button>
 </template>
 
 <script lang="ts">
-import { computed } from "vue";
+import { computed } from 'vue';
 export default {
   props: {
     theme: {
       type: String,
-      default: "button",
+      default: 'button',
     },
     size: {
       type: String,
-      default: "normal",
+      default: 'normal',
     },
     level: {
       type: String,
-      default: "normal",
+      default: 'normal',
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+    loading: {
+      type: Boolean,
+      default: false,
     },
   },
   setup(props) {
