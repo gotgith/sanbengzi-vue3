@@ -1,17 +1,12 @@
 <!--
  * @Date: 2020-10-20 15:36:27
- * @LastEditTime: 2020-10-27 15:25:13
- * @FilePath: /sanbengzi-vue3/src/lib/Switch.vue
+ * @LastEditTime: 2020-10-27 17:15:25
 -->
 <template>
-  <button
-    class="gulu-switch"
-    @click="toggle"
-    :class="{ 'gulu-checked': value }"
-  >
+  <button class="gulu-switch" @click="toggle" :class="{ 'gulu-checked': value }">
     <span></span>
   </button>
-</template>
+</template>       
 
 <script lang="ts">
 export default {
@@ -20,7 +15,7 @@ export default {
   },
   setup(props, context) {
     const toggle = () => {
-      context.emit("update:value", !props.value);
+      context.emit('update:value', !props.value);
     };
     return { toggle };
   },

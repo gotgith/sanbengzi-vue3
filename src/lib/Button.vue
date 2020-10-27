@@ -1,6 +1,6 @@
 <!--
  * @Date: 2020-10-21 13:56:45
- * @LastEditTime: 2020-10-27 16:00:18
+ * @LastEditTime: 2020-10-27 16:17:07
 -->
 <template>
   <button class="gulu-button" :class="classes">
@@ -20,13 +20,18 @@ export default {
       type: String,
       default: "normal",
     },
+    level: {
+      type: String,
+      default: "normal",
+    },
   },
   setup(props) {
-    const { theme, size } = props;
+    const { theme, size, level } = props;
     const classes = computed(() => {
       return {
         [`gulu-theme-${theme}`]: theme,
         [`gulu-size-${size}`]: size,
+        [`gulu-level-${level}`]: level,
       };
     });
     return { classes };
