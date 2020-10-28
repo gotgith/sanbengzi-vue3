@@ -1,21 +1,24 @@
 <template>
   <template v-if="visible">
-    <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="gulu-dialog-wrapper">
-      <div class="gulu-dialog">
-        <header>
-          <slot name="title"/>
-          <span @click="close" class="gulu-dialog-close"></span>
-        </header>
-        <main>
-          <slot name="content"/>
-        </main>
-        <footer>
-          <Button @click="ok">OK</Button>
-          <Button @click="cancel">Cancel</Button>
-        </footer>
+    <!--    是的弹框的层级提升到body上，避免被其他元素压制-->
+    <teleport to="body">
+      <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="gulu-dialog-wrapper">
+        <div class="gulu-dialog">
+          <header>
+            <slot name="title"/>
+            <span @click="close" class="gulu-dialog-close"></span>
+          </header>
+          <main>
+            <slot name="content"/>
+          </main>
+          <footer>
+            <Button @click="ok">OK</Button>
+            <Button @click="cancel">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
+    </teleport>
   </template>
 </template>
 
