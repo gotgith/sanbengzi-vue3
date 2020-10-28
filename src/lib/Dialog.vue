@@ -12,8 +12,8 @@
           <div>2222222</div>
         </main>
         <footer>
-          <Button>OK</Button>
-          <Button @click="close">Cancel</Button>
+          <Button @click="ok">OK</Button>
+          <Button @click="cancel">Cancel</Button>
         </footer>
       </div>
     </div>
@@ -32,6 +32,12 @@ export default {
     closeOnClickOverlay: {
       type: Boolean,
       default: true
+    },
+    ok: {
+      type: Function
+    },
+    cancel: {
+      type: Function
     }
   },
   components: {
@@ -44,7 +50,12 @@ export default {
     const onClickOverlay = () => {
       if (props.closeOnClickOverlay) {close();}
     };
-    return {close, onClickOverlay};
+    const ok = () => {
+      //props.ok?.() !== false 等价于 props.ok && props.ok()!==false
+      if (props.ok?.() !== false) {close();}
+    };
+    const cancel = () => {};
+    return {close, onClickOverlay, ok, cancel};
   },
 };
 </script>
