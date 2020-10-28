@@ -1,6 +1,6 @@
 <template>
   <template v-if="visible">
-    <!--    是的弹框的层级提升到body上，避免被其他元素压制-->
+    <!--使弹框的层级提升到body上，避免被其他元素压制-->
     <teleport to="body">
       <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
       <div class="gulu-dialog-wrapper">
