@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,7 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,6 +61,8 @@
       <workItem from="1603156902724" duration="4603000" />
       <workItem from="1603176632970" duration="8699000" />
       <workItem from="1603678430447" duration="756000" />
+      <workItem from="1603848232007" duration="2307000" />
+      <workItem from="1603864750242" duration="1920000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -99,10 +105,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1603274375533" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1603158218818">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603158218818" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1603274388048">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
