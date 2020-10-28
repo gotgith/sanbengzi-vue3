@@ -1,7 +1,15 @@
 <template>
   <div>
     <Button @click="toggle">打开</Button>
-    <Dialog v-model:visible="status" :closeOnClickOverlay="false" :ok="f1" :cancel="f2"></Dialog>
+    <Dialog title="提示" v-model:visible="status" :closeOnClickOverlay="false" :ok="onclickEnter" :cancel="onclickCancel">
+      <template v-slot:content>
+        <strong>这这这</strong>
+        <div>写这</div>
+      </template>
+      <template v-slot:title>
+        <strong>自定义标题</strong>
+      </template>
+    </Dialog>
   </div>
 </template>
 
@@ -15,12 +23,12 @@ export default {
   setup() {
     const status = ref(false);
     // 通过返回false来阻止Dialog关闭
-    const f1 = () => {return false;};
-    const f2 = () => {};
+    const onclickEnter = () => {return false;};
+    const onclickCancel = () => {};
     const toggle = () => {
       status.value = !status.value;
     };
-    return {status, toggle, f1, f2};
+    return {status, toggle, onclickEnter, onclickCancel};
   }
 };
 </script>
