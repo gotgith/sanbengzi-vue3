@@ -56,7 +56,10 @@ export default {
       //props.ok?.() !== false 等价于 props.ok && props.ok()!==false
       if (props.ok?.() !== false) {close();}
     };
-    const cancel = () => {};
+    const cancel = () => {
+      props.cancel?.();
+      close();
+    };
     return {close, onClickOverlay, ok, cancel};
   },
 };

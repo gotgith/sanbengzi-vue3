@@ -31,7 +31,7 @@ export default {
     const onclickCancel = () => {};
     const toggle = () => {status.value = !status.value;};
     const showDialog = () => {
-      openDialog({title: '标题', content: '内容'});
+      openDialog({title: '标题呀', content: '内容呀', ok() {console.log('ok');}, cancel() {console.log('cancel');}});
     };
     return {status, toggle, onclickEnter, onclickCancel, showDialog};
   }

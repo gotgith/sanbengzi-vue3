@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/openDIalog.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDIalog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDIalog.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1603176632970" duration="8699000" />
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
-      <workItem from="1603864750242" duration="6900000" />
+      <workItem from="1603864750242" duration="10181000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603871042080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="一键开启Dialog">
+      <created>1603879535534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603879535534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +125,8 @@
     <MESSAGE value="支持close" />
     <MESSAGE value="Dialog自定义标题和内容" />
     <MESSAGE value="加入teleport" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入teleport" />
+    <MESSAGE value="一键开启Dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="一键开启Dialog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -133,18 +141,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1603871041991">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1603879535434">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1603871041991" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1603879535434" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1603866799222">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1603879539111">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603866799222" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603879539111" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603158124642">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

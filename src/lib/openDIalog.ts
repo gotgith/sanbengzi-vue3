@@ -3,13 +3,23 @@ import Dialog from './Dialog.vue';
 import {createApp, h} from 'vue';
 // 手动把Dialog挂载到页面上
 export const openDialog = (options) => {
-  const {title, content} = options;
+  const {title, content, ok, cancel} = options;
   const div = document.createElement('div');
   document.body.appendChild(div);
+  const close = () => {
+    app.unmount(div);
+    div.remove();
+  };
   // 把Dialog挂载到div里面
-  createApp({
+  const app = createApp({
     render() {
-      return h(Dialog, {visible: true}, {title: '提示', content: '这是内容'});
+      return h(Dialog, {
+        visible: true,
+        'onUpdate:visible': (newValue) => {if (newValue === false) close();},
+        ok() {return false;},
+        cancel() {}
+      }, {title, content});
     }
-  }).mount(div);
+  });
+  app.mount(div);
 };
