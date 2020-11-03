@@ -3,6 +3,7 @@
     <div class="gulu-tabs-nav">
       <div class="gulu-tabs-nav-item"
            v-for="(t,index) in titles"
+           :ref="el=>{if(el) navItems[index]=el}"
            @click="select(t)"
            :class="{selected:t===selected}"
            :key="index">{{t}}
@@ -17,7 +18,7 @@
 
 <script lang="ts">
 import Tab from './Tab.vue';
-import {computed} from 'vue';
+import {computed, ref, onMounted} from 'vue';
 
 export default {
   props: {
@@ -27,9 +28,16 @@ export default {
   },
   // setup函数只会在页面挂载组件的时候执行。
   setup(props, context) {
-    console.log({...context.slots.default()});
+    const navItems = ref<HTMLDivElement[]>([]);
+    const indicator = ref<HTMLDivElement>(null);
+    onMounted(() => {
+      const divs = navItems.value;
+      const result = divs.filter(div => div.classList.contains('selected'))[0];
+      const {width} = result.getBoundingClientRect();
+      console.log(result, width);
+      indicator.value.style.width = width + 'px';
+    });
     const defaults = context.slots.default();
-    console.log(defaults);
     defaults.forEach((item) => {
       if (item.type !== Tab) {
         throw new Error('Tabs 的子标签必须是 Tab');
@@ -48,7 +56,7 @@ export default {
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
-    return {defaults, titles, current, select};
+    return {defaults, titles, current, select, navItems, indicator};
   }
 };
 </script>

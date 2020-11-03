@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +46,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Tabs.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sanbengzi-vue3/src/lib/Tabs.vue" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Tabs.vue" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +71,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="7693000" />
+      <workItem from="1604299786883" duration="10436000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -127,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604308977965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="实现Tab切换，滚动条待实现">
+      <created>1604374708547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604374708547</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +158,8 @@
     <MESSAGE value="一键开启Dialog" />
     <MESSAGE value="完善Dialog" />
     <MESSAGE value="创建Tabs 和 Tab 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Tabs 和 Tab 组件" />
+    <MESSAGE value="实现Tab切换，滚动条待实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现Tab切换，滚动条待实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -157,18 +174,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604308977834">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604374708459">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604308977834" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604374708459" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604308982989">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604374717234">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604308982989" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604374717234" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603158124642">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
