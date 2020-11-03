@@ -71,7 +71,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="10436000" />
+      <workItem from="1604299786883" duration="11284000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604374708547</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="获取标签宽度">
+      <created>1604383686671</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604383686671</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="完善Dialog" />
     <MESSAGE value="创建Tabs 和 Tab 组件" />
     <MESSAGE value="实现Tab切换，滚动条待实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现Tab切换，滚动条待实现" />
+    <MESSAGE value="获取标签宽度" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取标签宽度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -174,10 +182,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604374708459">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604383686596">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604374708459" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604383686596" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

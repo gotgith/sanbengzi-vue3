@@ -1,6 +1,6 @@
 <template>
   <div class="gulu-tabs">
-    <div class="gulu-tabs-nav">
+    <div class="gulu-tabs-nav" ref="container">
       <div class="gulu-tabs-nav-item"
            v-for="(t,index) in titles"
            :ref="el=>{if(el) navItems[index]=el}"
@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import Tab from './Tab.vue';
-import {computed, ref, onMounted} from 'vue';
+import {computed, ref, onMounted, onUpdated} from 'vue';
 
 export default {
   props: {
@@ -30,13 +30,20 @@ export default {
   setup(props, context) {
     const navItems = ref<HTMLDivElement[]>([]);
     const indicator = ref<HTMLDivElement>(null);
-    onMounted(() => {
+    const container = ref<HTMLDivElement>(null);
+    const x = () => {
       const divs = navItems.value;
       const result = divs.filter(div => div.classList.contains('selected'))[0];
       const {width} = result.getBoundingClientRect();
-      console.log(result, width);
       indicator.value.style.width = width + 'px';
-    });
+      const {left: left1} = container.value.getBoundingClientRect();
+      const {left: left2} = result.getBoundingClientRect();
+      const left = left2 - left1;
+      indicator.value.style.left = left + 'px';
+    };
+    // 只在第一次渲染执行
+    onMounted(x);
+    onUpdated(x);
     const defaults = context.slots.default();
     defaults.forEach((item) => {
       if (item.type !== Tab) {
@@ -56,7 +63,7 @@ export default {
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
-    return {defaults, titles, current, select, navItems, indicator};
+    return {defaults, titles, current, select, navItems, indicator, container};
   }
 };
 </script>
