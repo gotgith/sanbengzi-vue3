@@ -53,6 +53,7 @@ export default {
 $green: #02bcb0;
 $border-radius: 4px;
 $color: #007974;
+
 .topnavAndBanner {
   background: linear-gradient(
           145deg,

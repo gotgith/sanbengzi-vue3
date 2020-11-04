@@ -4,6 +4,8 @@
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +74,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="15953000" />
+      <workItem from="1604299786883" duration="18781000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -165,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604387620177</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="首页添加icon">
+      <created>1604472419018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604472419018</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +193,8 @@
     <MESSAGE value="获取标签宽度" />
     <MESSAGE value="实现下划线滑动效果" />
     <MESSAGE value="完成Tab组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Tab组件" />
+    <MESSAGE value="首页添加icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页添加icon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -199,17 +209,19 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604387620102">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604472418935">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472418935" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604387624562">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604472425350">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472425350" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387624562" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603158124642">
       <screen x="0" y="0" width="1792" height="1120" />
