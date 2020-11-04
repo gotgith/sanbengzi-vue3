@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="13770000" />
+      <workItem from="1604299786883" duration="15953000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604384851957</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="完成Tab组件">
+      <created>1604387620177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604387620177</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +183,8 @@
     <MESSAGE value="实现Tab切换，滚动条待实现" />
     <MESSAGE value="获取标签宽度" />
     <MESSAGE value="实现下划线滑动效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动效果" />
+    <MESSAGE value="完成Tab组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Tab组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -191,18 +199,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604384851877">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604387620102">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604384851877" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604374717234">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604387624562">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604374717234" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387624562" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603158124642">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
