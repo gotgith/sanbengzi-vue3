@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="19889000" />
+      <workItem from="1604299786883" duration="22736000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -182,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604481314695</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="创建路由">
+      <created>1604563386312</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604563386312</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +216,8 @@
     <MESSAGE value="完成Tab组件" />
     <MESSAGE value="首页添加icon" />
     <MESSAGE value="首页样式更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页样式更改" />
+    <MESSAGE value="创建路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建路由" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -219,21 +233,21 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604481314579">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604563386227">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472418935" />
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604481314579" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604563386227" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603853811851" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604481318092">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1604563403283">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472425350" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604481318092" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604563403283" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387624562" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603158124642">
       <screen x="0" y="0" width="1792" height="1120" />
