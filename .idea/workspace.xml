@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <workItem from="1603678430447" duration="756000" />
       <workItem from="1603848232007" duration="2307000" />
       <workItem from="1603864750242" duration="10440000" />
-      <workItem from="1604299786883" duration="26217000" />
+      <workItem from="1604299786883" duration="27399000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604649141833</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="完善switch Demo样式">
+      <created>1604650246738</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604650246738</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +233,8 @@
     <MESSAGE value="创建路由" />
     <MESSAGE value="添加markdown" />
     <MESSAGE value="优化markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化markdown" />
+    <MESSAGE value="完善switch Demo样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善switch Demo样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -240,11 +251,11 @@
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604648608797" />
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604649141730">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604650246659">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472418935" />
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604649141730" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604650246659" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
