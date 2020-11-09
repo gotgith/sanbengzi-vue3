@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1603864750242" duration="10440000" />
       <workItem from="1604299786883" duration="30285000" />
       <workItem from="1604842520067" duration="99000" />
-      <workItem from="1604883961010" duration="4942000" />
+      <workItem from="1604883961010" duration="5202000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604888093043</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="解决build后找不到文件问题">
+      <created>1604891765694</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604891765694</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +272,8 @@
     <MESSAGE value="高亮switch源代码" />
     <MESSAGE value="代码优化" />
     <MESSAGE value="添加Button,Dialog,Tabs组件使用方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Button,Dialog,Tabs组件使用方法" />
+    <MESSAGE value="解决build后找不到文件问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决build后找不到文件问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -285,12 +290,12 @@
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604891332216" />
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604888092915">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604891765590">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.111.1920.1057@0.0.1792.1120" timestamp="1604888092915" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472418935" />
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604654989516" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604891765590" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
