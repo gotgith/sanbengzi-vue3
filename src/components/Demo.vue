@@ -17,6 +17,7 @@
 <script lang="ts">
 import Button from '../lib/Button.vue';
 import 'prismjs';
+//prism-okaidia.css黑色主题  prism.css浅色主题
 import 'prismjs/themes/prism.css';
 import {
   computed,
