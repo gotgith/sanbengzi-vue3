@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da334f55-5ebb-402f-aa2e-f6f4a8d548b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1603864750242" duration="10440000" />
       <workItem from="1604299786883" duration="30285000" />
       <workItem from="1604842520067" duration="99000" />
-      <workItem from="1604883961010" duration="8112000" />
+      <workItem from="1604883961010" duration="8528000" />
     </task>
     <task id="LOCAL-00001" summary="使用v-model">
       <created>1603259170554</created>
@@ -258,14 +258,20 @@
       <option name="project" value="LOCAL" />
       <updated>1604903581113</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加一键部署脚本">
+      <created>1604904748437</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604904748437</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用v-model" />
     <MESSAGE value="创建Dialog组件" />
     <MESSAGE value="支持close" />
     <MESSAGE value="Dialog自定义标题和内容" />
@@ -290,7 +296,8 @@
     <MESSAGE value="解决build后找不到文件问题" />
     <MESSAGE value="忽略dist目录" />
     <MESSAGE value="修改vite.config.ts配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改vite.config.ts配置文件" />
+    <MESSAGE value="添加一键部署脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一键部署脚本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="395" key="#Notifications" timestamp="1603158086260">
@@ -307,12 +314,12 @@
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604891332216" />
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603092692615" />
-    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604903581019">
+    <state x="448" y="46" key="CommitChangelistDialog2" timestamp="1604904748351">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.111.1920.1057@0.0.1792.1120" timestamp="1604888092915" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.75.1920.1080@0.0.1792.1120" timestamp="1604472418935" />
-    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604903581019" />
+    <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120/-1920.88.1920.1080@0.0.1792.1120" timestamp="1604904748351" />
     <state x="448" y="46" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1604387620102" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1603853811851">
       <screen x="0" y="0" width="1792" height="1120" />
